@@ -25,17 +25,18 @@ section#login {
     transform: translate(-50%, -50%);
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.466);
     overflow: hidden;
+    background-color: white;
+    border-radius: 20px;
 }
 
 div#imagem {
     background-image: url(../imagens/fundo.jpg);
     background-size: cover;
-    height: 250px;
-    border-radius: 10px 10px 0px 0px;
+    background-position: center;
+    height: 200px;
 }
 
 div#formulario {
-    background-color: white;
     padding: 20px;
     margin: 0px;
 }
@@ -43,5 +44,23 @@ div#formulario {
 div#formulario > h1 {
     text-align: center;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+div#formulario > p {
+    text-align: center;
+    font-size: 0.8em;
+}
+
+label.email {
+    display: block;
+    background-color: #5F2C82;
+    width: 200px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+input#iusu {
+    height: 30px;
+    border-radius: 5px;
 }
