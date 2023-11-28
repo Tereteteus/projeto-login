@@ -55,8 +55,7 @@ section#login > div#formulario {
 
 div#formulario > h1 {
     text-align: center;
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 div#formulario > p {
@@ -64,15 +63,9 @@ div#formulario > p {
     font-size: 0.8em;
 }
 
-label.email {
-    display: block;
+div.campo {
     background-color: #5F2C82;
     width: 200px;
     padding: 5px;
-    border-radius: 5px;
-}
-
-input#iusu {
-    height: 30px;
     border-radius: 5px;
 }
